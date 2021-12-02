@@ -14,7 +14,7 @@ export interface Reservation {
     phone:           string;
     numberOfPeople:  number;
     smoking:         boolean;
-    dateTime:        Date;
+    dateTime:        string;
     specialRequests: string;
     createdAt:       Date;
     updatedAt:       Date;
@@ -32,4 +32,5 @@ export interface Comment {
   }
   export interface MyNavProps {
     brand: string;
+    title:string
   }
